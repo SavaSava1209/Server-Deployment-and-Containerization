@@ -19,7 +19,7 @@ def client():
     client = main.APP.test_client()
 
     yield client
-
+    assert False
 # this file is used to test python
 
 def test_health(client):
